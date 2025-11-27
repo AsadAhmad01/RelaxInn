@@ -1,0 +1,32 @@
+com.project.relaxinn.test.app-core-runtime-2.2.0-0 /Users/app/.gradle/caches/8.14.3/transforms/16da7ffc4e3f0aaafba1a7be230e5a88/transformed/core-runtime-2.2.0/res
+com.project.relaxinn.test.app-annotation-experimental-1.4.1-1 /Users/app/.gradle/caches/8.14.3/transforms/1d308e1aa36292e3b0e2bcdb7dfde0f5/transformed/annotation-experimental-1.4.1/res
+com.project.relaxinn.test.app-startup-runtime-1.1.1-2 /Users/app/.gradle/caches/8.14.3/transforms/39a6feebffecf33eb2c38c5fc52ccb97/transformed/startup-runtime-1.1.1/res
+com.project.relaxinn.test.app-core-viewtree-1.0.0-3 /Users/app/.gradle/caches/8.14.3/transforms/5c4920422a1e5f84d1fadf5a1b592ae8/transformed/core-viewtree-1.0.0/res
+com.project.relaxinn.test.app-savedstate-release-4 /Users/app/.gradle/caches/8.14.3/transforms/5f3e0eb60c6dc6c04c0b800b42a60802/transformed/savedstate-release/res
+com.project.relaxinn.test.app-graphics-path-1.0.1-5 /Users/app/.gradle/caches/8.14.3/transforms/6dc29be287b966df5470f7cf54088bc6/transformed/graphics-path-1.0.1/res
+com.project.relaxinn.test.app-lifecycle-viewmodel-ktx-2.9.4-6 /Users/app/.gradle/caches/8.14.3/transforms/7f93f669ff3b3098aedbcd2bc487f216/transformed/lifecycle-viewmodel-ktx-2.9.4/res
+com.project.relaxinn.test.app-ui-graphics-release-7 /Users/app/.gradle/caches/8.14.3/transforms/9ce2ecf25ac9cac38368bfd98169c3c4/transformed/ui-graphics-release/res
+com.project.relaxinn.test.app-core-1.17.0-8 /Users/app/.gradle/caches/8.14.3/transforms/9efc03fbe91a30c6413a45cde33b0d3f/transformed/core-1.17.0/res
+com.project.relaxinn.test.app-lifecycle-runtime-compose-release-9 /Users/app/.gradle/caches/8.14.3/transforms/a08bf1f1af70c5068523ce5174b77d3f/transformed/lifecycle-runtime-compose-release/res
+com.project.relaxinn.test.app-lifecycle-process-2.9.4-10 /Users/app/.gradle/caches/8.14.3/transforms/ab637d258c8d95f229b9076a86f5462c/transformed/lifecycle-process-2.9.4/res
+com.project.relaxinn.test.app-lifecycle-viewmodel-release-11 /Users/app/.gradle/caches/8.14.3/transforms/ba265154142576e1c1844427d1f08c14/transformed/lifecycle-viewmodel-release/res
+com.project.relaxinn.test.app-activity-1.11.0-12 /Users/app/.gradle/caches/8.14.3/transforms/bb88cff9609f14e65c3904793dff7095/transformed/activity-1.11.0/res
+com.project.relaxinn.test.app-profileinstaller-1.4.0-13 /Users/app/.gradle/caches/8.14.3/transforms/bea3899b946c0c5c3a9841ba3457b137/transformed/profileinstaller-1.4.0/res
+com.project.relaxinn.test.app-lifecycle-runtime-release-14 /Users/app/.gradle/caches/8.14.3/transforms/c0415b323cbf361d5d0b97e1d84f88c1/transformed/lifecycle-runtime-release/res
+com.project.relaxinn.test.app-ui-test-release-15 /Users/app/.gradle/caches/8.14.3/transforms/c0937d5152b835c305eb34156942ca38/transformed/ui-test-release/res
+com.project.relaxinn.test.app-lifecycle-livedata-core-2.9.4-16 /Users/app/.gradle/caches/8.14.3/transforms/c821ec1e901b97e18ea5fff1c9101d8b/transformed/lifecycle-livedata-core-2.9.4/res
+com.project.relaxinn.test.app-activity-ktx-1.11.0-17 /Users/app/.gradle/caches/8.14.3/transforms/ce9ba7b508128e9f02537f0f85a81da9/transformed/activity-ktx-1.11.0/res
+com.project.relaxinn.test.app-ui-release-18 /Users/app/.gradle/caches/8.14.3/transforms/cfe317bdc981ff36bea1dc376a5855ee/transformed/ui-release/res
+com.project.relaxinn.test.app-tracing-1.2.0-19 /Users/app/.gradle/caches/8.14.3/transforms/d71cc81eab0461f6d9ac95a09c923191/transformed/tracing-1.2.0/res
+com.project.relaxinn.test.app-customview-poolingcontainer-1.0.0-20 /Users/app/.gradle/caches/8.14.3/transforms/d8794019a437c634dd618978bf7be8b6/transformed/customview-poolingcontainer-1.0.0/res
+com.project.relaxinn.test.app-core-1.7.0-21 /Users/app/.gradle/caches/8.14.3/transforms/e26f2b44a0e51fb5f90d867e147003f5/transformed/core-1.7.0/res
+com.project.relaxinn.test.app-savedstate-ktx-1.3.3-22 /Users/app/.gradle/caches/8.14.3/transforms/eb3247846d838a42d9a09e87d41df52e/transformed/savedstate-ktx-1.3.3/res
+com.project.relaxinn.test.app-lifecycle-viewmodel-savedstate-release-23 /Users/app/.gradle/caches/8.14.3/transforms/f0b22b1d62f7ad9f9d378e4656960de0/transformed/lifecycle-viewmodel-savedstate-release/res
+com.project.relaxinn.test.app-activity-compose-1.11.0-24 /Users/app/.gradle/caches/8.14.3/transforms/f1418367510a9d13cc600676dc64a5fc/transformed/activity-compose-1.11.0/res
+com.project.relaxinn.test.app-core-ktx-1.17.0-25 /Users/app/.gradle/caches/8.14.3/transforms/f72dd8cde368f6b981b752514d5c52bc/transformed/core-ktx-1.17.0/res
+com.project.relaxinn.test.app-emoji2-1.4.0-26 /Users/app/.gradle/caches/8.14.3/transforms/ffeaf17ba8c8110d57552db4599c7860/transformed/emoji2-1.4.0/res
+com.project.relaxinn.test.app-androidTest-27 /Users/app/My Data/projects/BaseProject/app/build/generated/res/resValues/androidTest/debug
+com.project.relaxinn.test.app-updated_navigation_xml-28 /Users/app/My Data/projects/BaseProject/app/build/generated/updated_navigation_xml/debugAndroidTest
+com.project.relaxinn.test.app-mergeDebugAndroidTestResources-29 /Users/app/My Data/projects/BaseProject/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.project.relaxinn.test.app-mergeDebugAndroidTestResources-30 /Users/app/My Data/projects/BaseProject/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.project.relaxinn.test.app-debugAndroidTest-31 /Users/app/My Data/projects/BaseProject/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

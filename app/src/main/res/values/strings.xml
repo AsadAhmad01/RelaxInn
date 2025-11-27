@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Relax Inn</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_forget_password">ForgetPasswordActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+</resources>
