@@ -62,7 +62,7 @@ The app follows a strict **Clean Architecture** pattern to ensure scalability an
 
 1.  **Clone the Repo**
     ```bash
-    git clone [https://github.com/your-username/relax-inn.git](https://github.com/your-username/relax-inn.git)
+    git clone [https://github.com/your-username/relax-inn.git](https://github.com/AsadAhmad01/RelaxInn.git)
     ```
 
 2.  **Connect Firebase**
