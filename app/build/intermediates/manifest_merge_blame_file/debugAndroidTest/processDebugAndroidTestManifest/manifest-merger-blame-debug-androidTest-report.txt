@@ -3,24 +3,24 @@
 3    package="com.project.relaxinn.test" >
 4
 5    <uses-sdk
-5-->/Users/app/My Data/projects/BaseProject/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13300810586007089094.xml:5:5-74
+5-->/Users/app/Github_Repos/RelaxInn/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8349281733226864960.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->/Users/app/My Data/projects/BaseProject/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13300810586007089094.xml:5:15-41
+6-->/Users/app/Github_Repos/RelaxInn/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8349281733226864960.xml:5:15-41
 7        android:targetSdkVersion="36" />
-7-->/Users/app/My Data/projects/BaseProject/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13300810586007089094.xml:5:42-71
+7-->/Users/app/Github_Repos/RelaxInn/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8349281733226864960.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/app/My Data/projects/BaseProject/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13300810586007089094.xml:11:5-15:70
+9-->/Users/app/Github_Repos/RelaxInn/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8349281733226864960.xml:11:5-15:70
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->/Users/app/My Data/projects/BaseProject/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13300810586007089094.xml:11:22-76
+10-->/Users/app/Github_Repos/RelaxInn/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8349281733226864960.xml:11:22-76
 11        android:functionalTest="false"
-11-->/Users/app/My Data/projects/BaseProject/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13300810586007089094.xml:14:22-52
+11-->/Users/app/Github_Repos/RelaxInn/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8349281733226864960.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Users/app/My Data/projects/BaseProject/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13300810586007089094.xml:13:22-53
+12-->/Users/app/Github_Repos/RelaxInn/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8349281733226864960.xml:13:22-53
 13        android:label="Tests for com.project.relaxinn"
-13-->/Users/app/My Data/projects/BaseProject/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13300810586007089094.xml:15:22-68
+13-->/Users/app/Github_Repos/RelaxInn/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8349281733226864960.xml:15:22-68
 14        android:targetPackage="com.project.relaxinn" />
-14-->/Users/app/My Data/projects/BaseProject/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13300810586007089094.xml:12:22-66
+14-->/Users/app/Github_Repos/RelaxInn/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8349281733226864960.xml:12:22-66
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.7.0] /Users/app/.gradle/caches/8.14.3/transforms/e26f2b44a0e51fb5f90d867e147003f5/transformed/core-1.7.0/AndroidManifest.xml:24:5-72
@@ -40,12 +40,12 @@
 22    </queries>
 23
 24    <application
-24-->/Users/app/My Data/projects/BaseProject/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13300810586007089094.xml:7:5-9:19
+24-->/Users/app/Github_Repos/RelaxInn/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8349281733226864960.xml:7:5-9:19
 25        android:debuggable="true"
 26        android:extractNativeLibs="false" >
 27        <uses-library android:name="android.test.runner" />
-27-->/Users/app/My Data/projects/BaseProject/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13300810586007089094.xml:8:9-60
-27-->/Users/app/My Data/projects/BaseProject/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest13300810586007089094.xml:8:23-57
+27-->/Users/app/Github_Repos/RelaxInn/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8349281733226864960.xml:8:9-60
+27-->/Users/app/Github_Repos/RelaxInn/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest8349281733226864960.xml:8:23-57
 28
 29        <activity
 29-->[androidx.test:core:1.7.0] /Users/app/.gradle/caches/8.14.3/transforms/e26f2b44a0e51fb5f90d867e147003f5/transformed/core-1.7.0/AndroidManifest.xml:27:9-34:20

@@ -1,7 +1,7 @@
-#Thu Nov 27 22:33:50 PKT 2025
-base.0=/Users/app/My Data/projects/BaseProject/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
-base.1=/Users/app/My Data/projects/BaseProject/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
-base.2=/Users/app/My Data/projects/BaseProject/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/7/classes.dex
+#Sun Nov 30 00:47:33 PKT 2025
+base.0=/Users/app/Github_Repos/RelaxInn/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
+base.1=/Users/app/Github_Repos/RelaxInn/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+base.2=/Users/app/Github_Repos/RelaxInn/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/7/classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=7/classes.dex

@@ -57,7 +57,7 @@ fun WelcomeScreen(onLoginClick: () -> Unit, onSignUpClick: () -> Unit) {
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
                     .fillMaxSize()
-                    .padding(top = 40.dp)
+                    .padding(top = 100.dp)
             )
 
 
@@ -71,7 +71,7 @@ fun WelcomeScreen(onLoginClick: () -> Unit, onSignUpClick: () -> Unit) {
                 // Logo
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
-                    modifier = Modifier.padding(top = 60.dp)
+                    modifier = Modifier.padding(top = 120.dp)
                 ) {
                     Image(
                         painter = painterResource(R.drawable.ic_app_logo),
@@ -94,7 +94,7 @@ fun WelcomeScreen(onLoginClick: () -> Unit, onSignUpClick: () -> Unit) {
                 // Main Text
                 Text(
                     text = "Find Your\nFavorite Hotel\nto Stay",
-                    style = MaterialTheme.typography.displayMedium.copy(
+                    style = AppTheme.typography.extraHeadLine.copy(
                         fontWeight = FontWeight.Bold,
                         lineHeight = 48.sp,
                         fontSize = 42.sp
@@ -107,7 +107,7 @@ fun WelcomeScreen(onLoginClick: () -> Unit, onSignUpClick: () -> Unit) {
                 // Subtitle
                 Text(
                     text = "Find your hotel easily and travel\nanywhere you want with us",
-                    style = MaterialTheme.typography.bodyLarge.copy(
+                    style = AppTheme.typography.titleSmall.copy(
                         fontSize = 16.sp,
                         lineHeight = 24.sp
                     ),

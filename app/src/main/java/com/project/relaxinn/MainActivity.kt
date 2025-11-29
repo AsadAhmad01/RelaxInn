@@ -11,6 +11,7 @@ import androidx.navigation.compose.rememberNavController
 import com.project.relaxinn.presentation.ui.home.HomeScreen
 import com.project.relaxinn.presentation.navigation.Screen
 import com.project.relaxinn.presentation.theme.AppTheme
+import com.project.relaxinn.presentation.ui.auth.login.LoginScreen
 import com.project.relaxinn.presentation.ui.welcome.WelcomeScreen
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -29,7 +30,16 @@ class MainActivity : ComponentActivity() {
                     ) {
 
                         composable(Screen.Welcome.route) {
-                            WelcomeScreen(onSignUpClick = {}, onLoginClick = {})
+                            WelcomeScreen(onSignUpClick = {}, onLoginClick = {
+                                navController.navigate(Screen.Login.route)
+                            })
+                        }
+
+                        composable(Screen.Login.route) {
+                            LoginScreen(
+                                onLoginClick = {},
+                                onSignUpClick = {},
+                                onForgotPasswordClick = {})
                         }
 
                         composable(Screen.Home.route) {

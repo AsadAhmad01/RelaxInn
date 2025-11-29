@@ -171,7 +171,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/app/
 	android:dataExtractionRules
 		ADDED from /Users/app/Github_Repos/RelaxInn/app/src/main/AndroidManifest.xml:10:9-65
 	android:name
-		ADDED from /Users/app/Github_Repos/RelaxInn/app/src/main/AndroidManifest.xml:8:9-60
+		ADDED from /Users/app/Github_Repos/RelaxInn/app/src/main/AndroidManifest.xml:8:9-78
 activity#com.project.relaxinn.MainActivity
 ADDED from /Users/app/Github_Repos/RelaxInn/app/src/main/AndroidManifest.xml:17:9-24:20
 	android:exported

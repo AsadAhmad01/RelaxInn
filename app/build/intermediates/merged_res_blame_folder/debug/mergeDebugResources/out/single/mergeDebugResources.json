@@ -1,338 +1,338 @@
 [
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_validity.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_validity.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_home.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_home.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/font_light.otf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/light.otf"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/raw_slide1.gif.flat",
+        "source": "com.project.relaxinn.app-main-73:/raw/slide1.gif"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_buy_new_plans.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_buy_new_plans.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_logout.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_logout.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_my_plans.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_my_plans.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_building_one.png.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_building_one.png"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_unbounded_medium.ttf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/unbounded_medium.ttf"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_usage_history.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_usage_history.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_unbounded_bold.ttf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/unbounded_bold.ttf"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_performance.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_performance.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_sorting.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_sorting.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_time_orange.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_time_orange.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_wifi_xd.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_wifi_xd.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_thin.otf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/thin.otf"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_time.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_time.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_plan_banner.png.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/plan_banner.png"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_search.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_search.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_unbounded_semibold.ttf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/unbounded_semibold.ttf"
+        "merged": "com.project.relaxinn.app-debug-71:/font_unbounded_extrabold.ttf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/unbounded_extrabold.ttf"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.project.relaxinn.app-debug-71:/font_unbounded_regular.ttf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/unbounded_regular.ttf"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/raw_slide2.gif.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/raw/slide2.gif"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_home.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_home.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_absence.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_absence.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_time.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_time.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_training.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_training.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_training.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_training.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/xml/data_extraction_rules.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-hdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_user_profile.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_user_profile.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_notification_badge.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/notification_badge.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_unbounded_extralight.ttf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/unbounded_extralight.ttf"
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_club.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_club.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/raw_slide2.gif.flat",
+        "source": "com.project.relaxinn.app-main-73:/raw/slide2.gif"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_support_help.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_support_help.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_policy.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_policy.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_team.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_team.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_plan_banner.png.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/plan_banner.png"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_light.otf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/light.otf"
+        "merged": "com.project.relaxinn.app-debug-71:/menu_bottom_navigation_menu.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/menu/bottom_navigation_menu.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_email_with_back.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_email_with_back.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_validity.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_validity.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_logout.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_logout.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_volume.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_volume.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_usage_history.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_usage_history.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_idea_bulb.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_idea_bulb.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_buy_new_plans.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_buy_new_plans.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_profile.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_profile.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-mdpi/ic_launcher_foreground.webp"
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_idea_bulb.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_idea_bulb.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_team.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_team.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_unbounded_regular.ttf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/unbounded_regular.ttf"
+        "merged": "com.project.relaxinn.app-debug-71:/font_medium.otf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/medium.otf"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-xhdpi/ic_launcher_foreground.webp"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_club.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_club.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_semibold.otf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/semibold.otf"
+        "merged": "com.project.relaxinn.app-debug-71:/font_unbounded_medium.ttf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/unbounded_medium.ttf"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_my_plan.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_my_plan.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_alert.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_alert.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.project.relaxinn.app-debug-71:/font_unbounded_bold.ttf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/unbounded_bold.ttf"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/raw_slide3.gif.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/raw/slide3.gif"
+        "merged": "com.project.relaxinn.app-debug-71:/xml_data_extraction_rules.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_plans.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_plans.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/font_unbounded_extralight.ttf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/unbounded_extralight.ttf"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_launcher_background.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/raw_slide3.gif.flat",
+        "source": "com.project.relaxinn.app-main-73:/raw/slide3.gif"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_bold.otf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/bold.otf"
+        "merged": "com.project.relaxinn.app-debug-71:/xml_backup_rules.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/xml/backup_rules.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_email_white.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_email_white.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/font_black.otf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/black.otf"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_indicator_unselected.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/indicator_unselected.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_regular.otf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/regular.otf"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_sorting.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_sorting.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_uunbounded_light.ttf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/uunbounded_light.ttf"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_indicator_selected.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/indicator_selected.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_email_with_back.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_email_with_back.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_unbounded_extrabold.ttf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/unbounded_extrabold.ttf"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_plans.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_plans.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_notification_badge.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/notification_badge.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/font_unbounded_black.ttf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/unbounded_black.ttf"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/color_bottom_nav_selector.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/color/bottom_nav_selector.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_extralight.otf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/extralight.otf"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+        "merged": "com.project.relaxinn.app-debug-71:/font_semibold.otf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/semibold.otf"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_white_logo.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/white_logo.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_support_help.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_support_help.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_wifi_xd.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_wifi_xd.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/font_extrabold.otf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/extrabold.otf"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_indicator_unselected.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/indicator_unselected.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_region.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_region.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_money.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_money.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_my_plan.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_my_plan.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_building_one.png.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_building_one.png"
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_policy.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_policy.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_email_white.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_email_white.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_background.png.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/background.png"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_background.png.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/background.png"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_region.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_region.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_search.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_search.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_time_orange.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_time_orange.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_unbounded_black.ttf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/unbounded_black.ttf"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_white_logo.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/white_logo.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_bell.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_bell.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_absence.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_absence.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/raw_slide1.gif.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/raw/slide1.gif"
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_extrabold.otf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/extrabold.otf"
+        "merged": "com.project.relaxinn.app-debug-71:/font_regular.otf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/regular.otf"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_search_xd.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_search_xd.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_add_photo.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_add_photo.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_alert.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_alert.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_logo__1_.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/logo__1_.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_profile.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_profile.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/font_thin.otf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/thin.otf"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_black.otf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/black.otf"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_bell.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_bell.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-hdpi/ic_launcher_foreground.webp"
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_user_profile.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_user_profile.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_volume.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_volume.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/font_unbounded_semibold.ttf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/unbounded_semibold.ttf"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/xml_backup_rules.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/xml/backup_rules.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/color_bottom_nav_selector.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/color/bottom_nav_selector.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/menu_bottom_navigation_menu.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/menu/bottom_navigation_menu.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_money.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_money.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_indicator_selected.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/indicator_selected.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/font_uunbounded_light.ttf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/uunbounded_light.ttf"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.project.relaxinn.app-debug-71:/font_extralight.otf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/extralight.otf"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/font_medium.otf.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/font/medium.otf"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_search_xd.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_search_xd.xml"
     },
     {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_performance.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_performance.xml"
-    },
-    {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_ic_add_photo.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/ic_add_photo.xml"
-    },
-    {
-        "merged": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-debug-71:/drawable_logo__1_.xml.flat",
-        "source": "/Users/app/.gradle/daemon/8.14.3/com.project.relaxinn.app-main-73:/drawable/logo__1_.xml"
+        "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_my_plans.xml.flat",
+        "source": "com.project.relaxinn.app-main-73:/drawable/ic_my_plans.xml"
     },
     {
         "merged": "com.project.relaxinn.app-debug-71:/drawable_ic_app_logo.xml.flat",
         "source": "com.project.relaxinn.app-main-73:/drawable/ic_app_logo.xml"
+    },
+    {
+        "merged": "com.project.relaxinn.app-debug-71:/font_bold.otf.flat",
+        "source": "com.project.relaxinn.app-main-73:/font/bold.otf"
+    },
+    {
+        "merged": "com.project.relaxinn.app-debug-71:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.project.relaxinn.app-main-73:/mipmap-xxxhdpi/ic_launcher.webp"
     }
 ]

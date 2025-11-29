@@ -25,8 +25,8 @@ com.project.relaxinn.test.app-lifecycle-viewmodel-savedstate-release-23 /Users/a
 com.project.relaxinn.test.app-activity-compose-1.11.0-24 /Users/app/.gradle/caches/8.14.3/transforms/f1418367510a9d13cc600676dc64a5fc/transformed/activity-compose-1.11.0/res
 com.project.relaxinn.test.app-core-ktx-1.17.0-25 /Users/app/.gradle/caches/8.14.3/transforms/f72dd8cde368f6b981b752514d5c52bc/transformed/core-ktx-1.17.0/res
 com.project.relaxinn.test.app-emoji2-1.4.0-26 /Users/app/.gradle/caches/8.14.3/transforms/ffeaf17ba8c8110d57552db4599c7860/transformed/emoji2-1.4.0/res
-com.project.relaxinn.test.app-androidTest-27 /Users/app/My Data/projects/BaseProject/app/build/generated/res/resValues/androidTest/debug
-com.project.relaxinn.test.app-updated_navigation_xml-28 /Users/app/My Data/projects/BaseProject/app/build/generated/updated_navigation_xml/debugAndroidTest
-com.project.relaxinn.test.app-mergeDebugAndroidTestResources-29 /Users/app/My Data/projects/BaseProject/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.project.relaxinn.test.app-mergeDebugAndroidTestResources-30 /Users/app/My Data/projects/BaseProject/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.project.relaxinn.test.app-debugAndroidTest-31 /Users/app/My Data/projects/BaseProject/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
+com.project.relaxinn.test.app-androidTest-27 /Users/app/Github_Repos/RelaxInn/app/build/generated/res/resValues/androidTest/debug
+com.project.relaxinn.test.app-updated_navigation_xml-28 /Users/app/Github_Repos/RelaxInn/app/build/generated/updated_navigation_xml/debugAndroidTest
+com.project.relaxinn.test.app-mergeDebugAndroidTestResources-29 /Users/app/Github_Repos/RelaxInn/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.project.relaxinn.test.app-mergeDebugAndroidTestResources-30 /Users/app/Github_Repos/RelaxInn/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.project.relaxinn.test.app-debugAndroidTest-31 /Users/app/Github_Repos/RelaxInn/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
