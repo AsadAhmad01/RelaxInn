@@ -8,9 +8,10 @@ import androidx.compose.material3.Scaffold
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.project.relaxinn.presentation.home.HomeScreen
+import com.project.relaxinn.presentation.ui.home.HomeScreen
 import com.project.relaxinn.presentation.navigation.Screen
 import com.project.relaxinn.presentation.theme.AppTheme
+import com.project.relaxinn.presentation.ui.welcome.WelcomeScreen
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -22,7 +23,15 @@ class MainActivity : ComponentActivity() {
             AppTheme {
                 val navController = rememberNavController()
                 Scaffold { _ ->
-                    NavHost(navController = navController, startDestination = Screen.Home.route) {
+                    NavHost(
+                        navController = navController,
+                        startDestination = Screen.Welcome.route
+                    ) {
+
+                        composable(Screen.Welcome.route) {
+                            WelcomeScreen(onSignUpClick = {}, onLoginClick = {})
+                        }
+
                         composable(Screen.Home.route) {
                             HomeScreen()
                         }

@@ -8,7 +8,9 @@ drawable background
 drawable ic_absence
 drawable ic_add_photo
 drawable ic_alert
+drawable ic_app_logo
 drawable ic_bell
+drawable ic_building_one
 drawable ic_buy_new_plans
 drawable ic_club
 drawable ic_email_white

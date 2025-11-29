@@ -3608,8 +3608,10 @@ drawable design_snackbar_background
 drawable ic_absence
 drawable ic_add_photo
 drawable ic_alert
+drawable ic_app_logo
 drawable ic_arrow_back_black_24
 drawable ic_bell
+drawable ic_building_one
 drawable ic_buy_new_plans
 drawable ic_call_answer
 drawable ic_call_answer_low
