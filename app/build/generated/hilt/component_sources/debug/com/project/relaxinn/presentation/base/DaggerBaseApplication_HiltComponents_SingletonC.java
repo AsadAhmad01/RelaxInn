@@ -7,6 +7,18 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.SavedStateHandle;
 import androidx.lifecycle.ViewModel;
 import com.project.relaxinn.MainActivity;
+import com.project.relaxinn.presentation.ui.auth.forgotpassword.ForgotPasswordViewModel;
+import com.project.relaxinn.presentation.ui.auth.forgotpassword.ForgotPasswordViewModel_HiltModules;
+import com.project.relaxinn.presentation.ui.auth.forgotpassword.ForgotPasswordViewModel_HiltModules_BindsModule_Binds_LazyMapKey;
+import com.project.relaxinn.presentation.ui.auth.forgotpassword.ForgotPasswordViewModel_HiltModules_KeyModule_Provide_LazyMapKey;
+import com.project.relaxinn.presentation.ui.auth.login.LoginViewModel;
+import com.project.relaxinn.presentation.ui.auth.login.LoginViewModel_HiltModules;
+import com.project.relaxinn.presentation.ui.auth.login.LoginViewModel_HiltModules_BindsModule_Binds_LazyMapKey;
+import com.project.relaxinn.presentation.ui.auth.login.LoginViewModel_HiltModules_KeyModule_Provide_LazyMapKey;
+import com.project.relaxinn.presentation.ui.auth.signup.SignUpViewModel;
+import com.project.relaxinn.presentation.ui.auth.signup.SignUpViewModel_HiltModules;
+import com.project.relaxinn.presentation.ui.auth.signup.SignUpViewModel_HiltModules_BindsModule_Binds_LazyMapKey;
+import com.project.relaxinn.presentation.ui.auth.signup.SignUpViewModel_HiltModules_KeyModule_Provide_LazyMapKey;
 import dagger.hilt.android.ActivityRetainedLifecycle;
 import dagger.hilt.android.ViewModelLifecycle;
 import dagger.hilt.android.internal.builders.ActivityComponentBuilder;
@@ -23,12 +35,14 @@ import dagger.hilt.android.internal.managers.SavedStateHandleHolder;
 import dagger.hilt.android.internal.modules.ApplicationContextModule;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.DoubleCheck;
+import dagger.internal.LazyClassKeyMap;
+import dagger.internal.MapBuilder;
 import dagger.internal.Preconditions;
+import dagger.internal.Provider;
 import java.util.Collections;
 import java.util.Map;
 import java.util.Set;
 import javax.annotation.processing.Generated;
-import javax.inject.Provider;
 
 @DaggerGenerated
 @Generated(
@@ -363,12 +377,12 @@ public final class DaggerBaseApplication_HiltComponents_SingletonC {
 
     @Override
     public DefaultViewModelFactories.InternalFactoryFactory getHiltInternalFactoryFactory() {
-      return DefaultViewModelFactories_InternalFactoryFactory_Factory.newInstance(Collections.<Class<?>, Boolean>emptyMap(), new ViewModelCBuilder(singletonCImpl, activityRetainedCImpl));
+      return DefaultViewModelFactories_InternalFactoryFactory_Factory.newInstance(getViewModelKeys(), new ViewModelCBuilder(singletonCImpl, activityRetainedCImpl));
     }
 
     @Override
     public Map<Class<?>, Boolean> getViewModelKeys() {
-      return Collections.<Class<?>, Boolean>emptyMap();
+      return LazyClassKeyMap.<Boolean>of(MapBuilder.<String, Boolean>newMapBuilder(3).put(ForgotPasswordViewModel_HiltModules_KeyModule_Provide_LazyMapKey.lazyClassKeyName, ForgotPasswordViewModel_HiltModules.KeyModule.provide()).put(LoginViewModel_HiltModules_KeyModule_Provide_LazyMapKey.lazyClassKeyName, LoginViewModel_HiltModules.KeyModule.provide()).put(SignUpViewModel_HiltModules_KeyModule_Provide_LazyMapKey.lazyClassKeyName, SignUpViewModel_HiltModules.KeyModule.provide()).build());
     }
 
     @Override
@@ -394,22 +408,72 @@ public final class DaggerBaseApplication_HiltComponents_SingletonC {
 
     private final ViewModelCImpl viewModelCImpl = this;
 
+    Provider<ForgotPasswordViewModel> forgotPasswordViewModelProvider;
+
+    Provider<LoginViewModel> loginViewModelProvider;
+
+    Provider<SignUpViewModel> signUpViewModelProvider;
+
     ViewModelCImpl(SingletonCImpl singletonCImpl, ActivityRetainedCImpl activityRetainedCImpl,
         SavedStateHandle savedStateHandleParam, ViewModelLifecycle viewModelLifecycleParam) {
       this.singletonCImpl = singletonCImpl;
       this.activityRetainedCImpl = activityRetainedCImpl;
 
+      initialize(savedStateHandleParam, viewModelLifecycleParam);
 
     }
 
+    @SuppressWarnings("unchecked")
+    private void initialize(final SavedStateHandle savedStateHandleParam,
+        final ViewModelLifecycle viewModelLifecycleParam) {
+      this.forgotPasswordViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 0);
+      this.loginViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 1);
+      this.signUpViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 2);
+    }
+
     @Override
-    public Map<Class<?>, Provider<ViewModel>> getHiltViewModelMap() {
-      return Collections.<Class<?>, Provider<ViewModel>>emptyMap();
+    public Map<Class<?>, javax.inject.Provider<ViewModel>> getHiltViewModelMap() {
+      return LazyClassKeyMap.<javax.inject.Provider<ViewModel>>of(MapBuilder.<String, javax.inject.Provider<ViewModel>>newMapBuilder(3).put(ForgotPasswordViewModel_HiltModules_BindsModule_Binds_LazyMapKey.lazyClassKeyName, ((Provider) (forgotPasswordViewModelProvider))).put(LoginViewModel_HiltModules_BindsModule_Binds_LazyMapKey.lazyClassKeyName, ((Provider) (loginViewModelProvider))).put(SignUpViewModel_HiltModules_BindsModule_Binds_LazyMapKey.lazyClassKeyName, ((Provider) (signUpViewModelProvider))).build());
     }
 
     @Override
     public Map<Class<?>, Object> getHiltViewModelAssistedMap() {
       return Collections.<Class<?>, Object>emptyMap();
+    }
+
+    private static final class SwitchingProvider<T> implements Provider<T> {
+      private final SingletonCImpl singletonCImpl;
+
+      private final ActivityRetainedCImpl activityRetainedCImpl;
+
+      private final ViewModelCImpl viewModelCImpl;
+
+      private final int id;
+
+      SwitchingProvider(SingletonCImpl singletonCImpl, ActivityRetainedCImpl activityRetainedCImpl,
+          ViewModelCImpl viewModelCImpl, int id) {
+        this.singletonCImpl = singletonCImpl;
+        this.activityRetainedCImpl = activityRetainedCImpl;
+        this.viewModelCImpl = viewModelCImpl;
+        this.id = id;
+      }
+
+      @Override
+      @SuppressWarnings("unchecked")
+      public T get() {
+        switch (id) {
+          case 0: // com.project.relaxinn.presentation.ui.auth.forgotpassword.ForgotPasswordViewModel
+          return (T) new ForgotPasswordViewModel();
+
+          case 1: // com.project.relaxinn.presentation.ui.auth.login.LoginViewModel
+          return (T) new LoginViewModel();
+
+          case 2: // com.project.relaxinn.presentation.ui.auth.signup.SignUpViewModel
+          return (T) new SignUpViewModel();
+
+          default: throw new AssertionError(id);
+        }
+      }
     }
   }
 
@@ -418,7 +482,7 @@ public final class DaggerBaseApplication_HiltComponents_SingletonC {
 
     private final ActivityRetainedCImpl activityRetainedCImpl = this;
 
-    dagger.internal.Provider<ActivityRetainedLifecycle> provideActivityRetainedLifecycleProvider;
+    Provider<ActivityRetainedLifecycle> provideActivityRetainedLifecycleProvider;
 
     ActivityRetainedCImpl(SingletonCImpl singletonCImpl,
         SavedStateHandleHolder savedStateHandleHolderParam) {
@@ -443,7 +507,7 @@ public final class DaggerBaseApplication_HiltComponents_SingletonC {
       return provideActivityRetainedLifecycleProvider.get();
     }
 
-    private static final class SwitchingProvider<T> implements dagger.internal.Provider<T> {
+    private static final class SwitchingProvider<T> implements Provider<T> {
       private final SingletonCImpl singletonCImpl;
 
       private final ActivityRetainedCImpl activityRetainedCImpl;

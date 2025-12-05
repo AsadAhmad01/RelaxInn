@@ -2,6 +2,9 @@ package com.project.relaxinn.presentation.base;
 
 import com.project.relaxinn.MainActivity_GeneratedInjector;
 import com.project.relaxinn.di.AppModule;
+import com.project.relaxinn.presentation.ui.auth.forgotpassword.ForgotPasswordViewModel_HiltModules;
+import com.project.relaxinn.presentation.ui.auth.login.LoginViewModel_HiltModules;
+import com.project.relaxinn.presentation.ui.auth.signup.SignUpViewModel_HiltModules;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
@@ -156,8 +159,11 @@ public final class BaseApplication_HiltComponents {
       modules = {
           ActivityCBuilderModule.class,
           ViewModelCBuilderModule.class,
+          ForgotPasswordViewModel_HiltModules.KeyModule.class,
           HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class,
-          HiltWrapper_ActivitySavedStateHandleModule.class
+          HiltWrapper_ActivitySavedStateHandleModule.class,
+          LoginViewModel_HiltModules.KeyModule.class,
+          SignUpViewModel_HiltModules.KeyModule.class
       }
   )
   @ActivityRetainedScoped
@@ -192,7 +198,12 @@ public final class BaseApplication_HiltComponents {
   }
 
   @Subcomponent(
-      modules = HiltWrapper_HiltViewModelFactory_ViewModelModule.class
+      modules = {
+          ForgotPasswordViewModel_HiltModules.BindsModule.class,
+          HiltWrapper_HiltViewModelFactory_ViewModelModule.class,
+          LoginViewModel_HiltModules.BindsModule.class,
+          SignUpViewModel_HiltModules.BindsModule.class
+      }
   )
   @ViewModelScoped
   public abstract static class ViewModelC implements ViewModelComponent,
