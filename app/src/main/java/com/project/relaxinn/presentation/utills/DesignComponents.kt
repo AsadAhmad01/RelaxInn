@@ -57,7 +57,9 @@ fun CustomTextField(
     isPassword: Boolean = false,
     isPasswordVisible: Boolean = false,
     onVisibilityChange: () -> Unit = {},
-    keyboardOptions: KeyboardOptions = KeyboardOptions.Default
+    keyboardOptions: KeyboardOptions = KeyboardOptions.Default,
+    errorMessage: String? = null,
+    isError: Boolean = false
 ) {
     Column(modifier = modifier.fillMaxWidth()) {
         Text(
@@ -83,8 +85,8 @@ fun CustomTextField(
                 focusedContainerColor = AppTheme.colors.surface,
                 unfocusedContainerColor = AppTheme.colors.surface,
                 disabledContainerColor = AppTheme.colors.surface,
-                focusedBorderColor = Color.Transparent,
-                unfocusedBorderColor = Color.Transparent,
+                focusedBorderColor = if (isError) Color.Red.copy(alpha = 0.7f) else Color.Transparent,
+                unfocusedBorderColor = if (isError) Color.Red.copy(alpha = 0.5f) else Color.Transparent,
                 focusedTextColor = AppTheme.colors.onSurface,
                 unfocusedTextColor = AppTheme.colors.onSurface
             ),
@@ -104,7 +106,18 @@ fun CustomTextField(
                 }
             } else null,
             keyboardOptions = keyboardOptions,
-            singleLine = true
+            singleLine = true,
+            isError = isError
         )
+
+        // Error message
+        if (isError && !errorMessage.isNullOrBlank()) {
+            Spacer(modifier = Modifier.height(4.dp))
+            Text(
+                text = errorMessage,
+                style = MaterialTheme.typography.bodySmall,
+                color = Color.Red.copy(alpha = 0.8f)
+            )
+        }
     }
 }

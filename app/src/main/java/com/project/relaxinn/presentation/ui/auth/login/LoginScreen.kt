@@ -33,6 +33,7 @@ import androidx.compose.ui.unit.sp
 import com.project.relaxinn.presentation.theme.AppTheme
 import com.project.relaxinn.presentation.utills.CustomButton
 import com.project.relaxinn.presentation.utills.CustomTextField
+import com.project.relaxinn.presentation.utills.ValidationUtils
 
 @Composable
 fun LoginScreen(
@@ -42,6 +43,10 @@ fun LoginScreen(
     var password by remember { mutableStateOf("") }
     var isPasswordVisible by remember { mutableStateOf(false) }
     var isRememberMeChecked by remember { mutableStateOf(false) }
+
+    // Error states
+    var emailError by remember { mutableStateOf<String?>(null) }
+    var passwordError by remember { mutableStateOf<String?>(null) }
 
     Scaffold(
         modifier = Modifier.fillMaxSize(), containerColor = AppTheme.colors.background
@@ -78,9 +83,14 @@ fun LoginScreen(
             CustomTextField(
                 label = "Email",
                 value = email,
-                onValueChange = { email = it },
+                onValueChange = {
+                    email = it
+                    emailError = null // Clear error on input
+                },
                 placeholder = "Enter email",
-                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email)
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
+                errorMessage = emailError,
+                isError = emailError != null
             )
 
             Spacer(modifier = Modifier.height(24.dp))
@@ -89,11 +99,17 @@ fun LoginScreen(
             CustomTextField(
                 label = "Password",
                 value = password,
-                onValueChange = { password = it },
+                onValueChange = {
+                    password = it
+                    passwordError = null // Clear error on input
+                },
                 placeholder = "************",
                 isPassword = true,
                 isPasswordVisible = isPasswordVisible,
-                onVisibilityChange = { isPasswordVisible = !isPasswordVisible })
+                onVisibilityChange = { isPasswordVisible = !isPasswordVisible },
+                errorMessage = passwordError,
+                isError = passwordError != null
+            )
 
             Spacer(modifier = Modifier.height(16.dp))
 
@@ -132,7 +148,21 @@ fun LoginScreen(
 
             // Sign In Button
             CustomButton(
-                title = "Sign in", onclick = onLoginClick, modifier = Modifier
+                title = "Sign in", onclick = {
+                    // Validate all fields
+                    val (isValid, errors) = ValidationUtils.validateLoginForm(
+                        email = email, password = password
+                    )
+
+                    if (isValid) {
+                        // All validations passed
+                        onLoginClick()
+                    } else {
+                        // Set error messages
+                        emailError = errors["email"]
+                        passwordError = errors["password"]
+                    }
+                }, modifier = Modifier
             )
 
             Spacer(modifier = Modifier.weight(1f))
