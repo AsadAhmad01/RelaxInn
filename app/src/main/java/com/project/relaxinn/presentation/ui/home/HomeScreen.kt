@@ -56,7 +56,9 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.project.relaxinn.R
+import com.project.relaxinn.presentation.navigation.Screen
 import com.project.relaxinn.presentation.theme.AppTheme
+import androidx.navigation.NavController
 
 
 data class Hotel(
@@ -69,7 +71,7 @@ data class Hotel(
 )
 
 @Composable
-fun HomeScreen(modifier: Modifier = Modifier) {
+fun HomeScreen(navController: NavController, modifier: Modifier = Modifier) {
     var searchQuery by remember { mutableStateOf("") }
     val scrollState = rememberScrollState()
 
@@ -118,7 +120,19 @@ fun HomeScreen(modifier: Modifier = Modifier) {
             horizontalArrangement = Arrangement.spacedBy(16.dp)
         ) {
             items(topRatedHotels) { hotel ->
-                TopRatedHotelCard(hotel = hotel)
+                TopRatedHotelCard(
+                    hotel = hotel,
+                    onClick = {
+                        navController.navigate(
+                            Screen.HotelDetail.createRoute(
+                                hotelName = hotel.name,
+                                location = hotel.location,
+                                rating = hotel.rating,
+                                price = hotel.price
+                            )
+                        )
+                    }
+                )
             }
         }
 
@@ -138,6 +152,16 @@ fun HomeScreen(modifier: Modifier = Modifier) {
         discoverHotels.forEach { hotel ->
             DiscoverHotelCard(
                 hotel = hotel,
+                onClick = {
+                    navController.navigate(
+                        Screen.HotelDetail.createRoute(
+                            hotelName = hotel.name,
+                            location = hotel.location,
+                            rating = hotel.rating,
+                            price = hotel.price
+                        )
+                    )
+                },
                 modifier = Modifier.padding(horizontal = 20.dp, vertical = 8.dp)
             )
         }
@@ -349,8 +373,9 @@ private fun SectionHeader(
 }
 
 @Composable
-private fun TopRatedHotelCard(hotel: Hotel) {
+private fun TopRatedHotelCard(hotel: Hotel, onClick: () -> Unit = {}) {
     Card(
+        onClick = onClick,
         modifier = Modifier
             .width(200.dp)
             .height(240.dp),
@@ -424,8 +449,9 @@ private fun TopRatedHotelCard(hotel: Hotel) {
 }
 
 @Composable
-private fun DiscoverHotelCard(hotel: Hotel, modifier: Modifier = Modifier) {
+private fun DiscoverHotelCard(hotel: Hotel, onClick: () -> Unit = {}, modifier: Modifier = Modifier) {
     Card(
+        onClick = onClick,
         modifier = modifier
             .fillMaxWidth()
             .height(120.dp),

@@ -3,6 +3,7 @@ package com.project.relaxinn;
 import android.os.Bundle;
 import androidx.activity.ComponentActivity;
 import com.project.relaxinn.presentation.navigation.Screen;
+import androidx.navigation.NavType;
 import dagger.hilt.android.AndroidEntryPoint;
 
 @dagger.hilt.android.AndroidEntryPoint()

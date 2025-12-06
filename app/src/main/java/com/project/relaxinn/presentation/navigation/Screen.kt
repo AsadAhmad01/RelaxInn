@@ -10,5 +10,9 @@ sealed class Screen(val route: String) {
     object Bookings : Screen("bookings")
     object Favorites : Screen("favorites")
     object Profile : Screen("profile")
-    object Detail : Screen("detail")
+    object HotelDetail : Screen("hotelDetail/{hotelName}/{location}/{rating}/{price}") {
+        fun createRoute(hotelName: String, location: String, rating: Float, price: String): String {
+            return "hotelDetail/$hotelName/$location/$rating/$price"
+        }
+    }
 }

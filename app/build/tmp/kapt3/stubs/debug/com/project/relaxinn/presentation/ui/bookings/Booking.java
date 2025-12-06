@@ -10,6 +10,8 @@ import androidx.compose.ui.Modifier;
 import androidx.compose.ui.layout.ContentScale;
 import androidx.compose.ui.text.font.FontWeight;
 import com.project.relaxinn.R;
+import com.project.relaxinn.presentation.navigation.Screen;
+import androidx.navigation.NavController;
 
 /**
  * Data class for booking information

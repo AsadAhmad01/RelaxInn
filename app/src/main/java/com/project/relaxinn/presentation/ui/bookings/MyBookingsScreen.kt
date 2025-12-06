@@ -44,7 +44,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.project.relaxinn.R
+import com.project.relaxinn.presentation.navigation.Screen
 import com.project.relaxinn.presentation.theme.AppTheme
+import androidx.navigation.NavController
 
 /**
  * Data class for booking information
@@ -61,7 +63,7 @@ data class Booking(
  * My Bookings Screen - View current and past hotel bookings
  */
 @Composable
-fun MyBookingsScreen(modifier: Modifier = Modifier) {
+fun MyBookingsScreen(navController: NavController, modifier: Modifier = Modifier) {
     var selectedTab by remember { mutableIntStateOf(0) } // 0 = Current, 1 = History
     val scrollState = rememberScrollState()
 
@@ -127,7 +129,16 @@ fun MyBookingsScreen(modifier: Modifier = Modifier) {
             bookings.forEach { booking ->
                 BookingCard(
                     booking = booking,
-                    onViewTicketClick = { /* TODO: Navigate to ticket details */ },
+                    onViewTicketClick = {
+                        navController.navigate(
+                            Screen.HotelDetail.createRoute(
+                                hotelName = booking.hotelName,
+                                location = booking.location,
+                                rating = 4.5f, // Default rating for bookings
+                                price = booking.pricePerNight
+                            )
+                        )
+                    },
                     onCancelClick = { /* TODO: Handle cancellation */ }
                 )
             }

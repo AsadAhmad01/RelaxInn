@@ -1,6 +1,6 @@
 package com.project.relaxinn.presentation.navigation;
 
-@kotlin.Metadata(mv = {1, 9, 0}, k = 1, xi = 48, d1 = {"\u0000<\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000e\n\u0002\b\r\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\b7\u0018\u00002\u00020\u0001:\n\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010B\u000f\b\u0004\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0005\u0010\u0006\u0082\u0001\n\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u00a8\u0006\u001b"}, d2 = {"Lcom/project/relaxinn/presentation/navigation/Screen;", "", "route", "", "(Ljava/lang/String;)V", "getRoute", "()Ljava/lang/String;", "Bookings", "Detail", "Explore", "Favorites", "ForgotPassword", "Home", "Login", "Profile", "Register", "Welcome", "Lcom/project/relaxinn/presentation/navigation/Screen$Bookings;", "Lcom/project/relaxinn/presentation/navigation/Screen$Detail;", "Lcom/project/relaxinn/presentation/navigation/Screen$Explore;", "Lcom/project/relaxinn/presentation/navigation/Screen$Favorites;", "Lcom/project/relaxinn/presentation/navigation/Screen$ForgotPassword;", "Lcom/project/relaxinn/presentation/navigation/Screen$Home;", "Lcom/project/relaxinn/presentation/navigation/Screen$Login;", "Lcom/project/relaxinn/presentation/navigation/Screen$Profile;", "Lcom/project/relaxinn/presentation/navigation/Screen$Register;", "Lcom/project/relaxinn/presentation/navigation/Screen$Welcome;", "app_debug"})
+@kotlin.Metadata(mv = {1, 9, 0}, k = 1, xi = 48, d1 = {"\u0000<\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000e\n\u0002\b\r\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\b7\u0018\u00002\u00020\u0001:\n\u0007\b\t\n\u000b\f\r\u000e\u000f\u0010B\u000f\b\u0004\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0005\u0010\u0006\u0082\u0001\n\u0011\u0012\u0013\u0014\u0015\u0016\u0017\u0018\u0019\u001a\u00a8\u0006\u001b"}, d2 = {"Lcom/project/relaxinn/presentation/navigation/Screen;", "", "route", "", "(Ljava/lang/String;)V", "getRoute", "()Ljava/lang/String;", "Bookings", "Explore", "Favorites", "ForgotPassword", "Home", "HotelDetail", "Login", "Profile", "Register", "Welcome", "Lcom/project/relaxinn/presentation/navigation/Screen$Bookings;", "Lcom/project/relaxinn/presentation/navigation/Screen$Explore;", "Lcom/project/relaxinn/presentation/navigation/Screen$Favorites;", "Lcom/project/relaxinn/presentation/navigation/Screen$ForgotPassword;", "Lcom/project/relaxinn/presentation/navigation/Screen$Home;", "Lcom/project/relaxinn/presentation/navigation/Screen$HotelDetail;", "Lcom/project/relaxinn/presentation/navigation/Screen$Login;", "Lcom/project/relaxinn/presentation/navigation/Screen$Profile;", "Lcom/project/relaxinn/presentation/navigation/Screen$Register;", "Lcom/project/relaxinn/presentation/navigation/Screen$Welcome;", "app_debug"})
 public abstract class Screen {
     @org.jetbrains.annotations.NotNull()
     private final java.lang.String route = null;
@@ -20,15 +20,6 @@ public abstract class Screen {
         public static final com.project.relaxinn.presentation.navigation.Screen.Bookings INSTANCE = null;
         
         private Bookings() {
-        }
-    }
-    
-    @kotlin.Metadata(mv = {1, 9, 0}, k = 1, xi = 48, d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\b\u00c7\u0002\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002\u00a8\u0006\u0003"}, d2 = {"Lcom/project/relaxinn/presentation/navigation/Screen$Detail;", "Lcom/project/relaxinn/presentation/navigation/Screen;", "()V", "app_debug"})
-    public static final class Detail extends com.project.relaxinn.presentation.navigation.Screen {
-        @org.jetbrains.annotations.NotNull()
-        public static final com.project.relaxinn.presentation.navigation.Screen.Detail INSTANCE = null;
-        
-        private Detail() {
         }
     }
     
@@ -65,6 +56,23 @@ public abstract class Screen {
         public static final com.project.relaxinn.presentation.navigation.Screen.Home INSTANCE = null;
         
         private Home() {
+        }
+    }
+    
+    @kotlin.Metadata(mv = {1, 9, 0}, k = 1, xi = 48, d1 = {"\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0002\b\u0003\n\u0002\u0010\u0007\n\u0002\b\u0002\b\u00c7\u0002\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002J&\u0010\u0003\u001a\u00020\u00042\u0006\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0006\u001a\u00020\u00042\u0006\u0010\u0007\u001a\u00020\b2\u0006\u0010\t\u001a\u00020\u0004\u00a8\u0006\n"}, d2 = {"Lcom/project/relaxinn/presentation/navigation/Screen$HotelDetail;", "Lcom/project/relaxinn/presentation/navigation/Screen;", "()V", "createRoute", "", "hotelName", "location", "rating", "", "price", "app_debug"})
+    public static final class HotelDetail extends com.project.relaxinn.presentation.navigation.Screen {
+        @org.jetbrains.annotations.NotNull()
+        public static final com.project.relaxinn.presentation.navigation.Screen.HotelDetail INSTANCE = null;
+        
+        private HotelDetail() {
+        }
+        
+        @org.jetbrains.annotations.NotNull()
+        public final java.lang.String createRoute(@org.jetbrains.annotations.NotNull()
+        java.lang.String hotelName, @org.jetbrains.annotations.NotNull()
+        java.lang.String location, float rating, @org.jetbrains.annotations.NotNull()
+        java.lang.String price) {
+            return null;
         }
     }
     
