@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.project.relaxinn.presentation.ui.auth.signup.SignUpViewModel

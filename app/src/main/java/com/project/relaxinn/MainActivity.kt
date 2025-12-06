@@ -8,7 +8,7 @@ import androidx.compose.material3.Scaffold
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.project.relaxinn.presentation.ui.home.HomeScreen
+import com.project.relaxinn.presentation.ui.main.MainContainer
 import com.project.relaxinn.presentation.navigation.Screen
 import com.project.relaxinn.presentation.theme.AppTheme
 import com.project.relaxinn.presentation.ui.auth.forgotpassword.ForgotPasswordScreen
@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             AppTheme {
                 val navController = rememberNavController()
-                Scaffold { _ ->
+                Scaffold { paddingValues ->
                     NavHost(
                         navController = navController,
                         startDestination = Screen.Welcome.route
@@ -86,7 +86,7 @@ class MainActivity : ComponentActivity() {
                         }
 
                         composable(Screen.Home.route) {
-                            HomeScreen()
+                            MainContainer()
                         }
                     }
                 }

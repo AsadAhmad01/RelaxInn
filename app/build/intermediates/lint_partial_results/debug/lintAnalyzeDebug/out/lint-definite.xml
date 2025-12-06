@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.13.1" type="incidents">
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity than 1.11.0 is available: 1.12.1">
+        <fix-replace
+            description="Change to 1.12.1"
+            family="Update versions"
+            oldString="1.11.0"
+            replacement="1.12.1"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="10"
+            column="12"
+            startOffset="177"
+            endLine="10"
+            endColumn="20"
+            endOffset="185"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.7.0 is available: 2.10.0">
+        <fix-replace
+            description="Change to 2.10.0"
+            family="Update versions"
+            oldString="2.7.0"
+            replacement="2.10.0"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="27"
+            column="13"
+            startOffset="429"
+            endLine="27"
+            endColumn="20"
+            endOffset="436"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.7.0 is available: 2.10.0">
+        <fix-replace
+            description="Change to 2.10.0"
+            family="Update versions"
+            oldString="2.7.0"
+            replacement="2.10.0"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="27"
+            column="13"
+            startOffset="429"
+            endLine="27"
+            endColumn="20"
+            endOffset="436"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.7.0 is available: 2.10.0">
+        <fix-replace
+            description="Change to 2.10.0"
+            family="Update versions"
+            oldString="2.7.0"
+            replacement="2.10.0"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="27"
+            column="13"
+            startOffset="429"
+            endLine="27"
+            endColumn="20"
+            endOffset="436"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.7.0 is available: 2.10.0">
+        <fix-replace
+            description="Change to 2.10.0"
+            family="Update versions"
+            oldString="2.7.0"
+            replacement="2.10.0"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="27"
+            column="13"
+            startOffset="429"
+            endLine="27"
+            endColumn="20"
+            endOffset="436"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.9.6">
+        <fix-replace
+            description="Change to 2.9.6"
+            family="Update versions"
+            oldString="2.7.7"
+            replacement="2.9.6"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="30"
+            column="14"
+            startOffset="464"
+            endLine="30"
+            endColumn="21"
+            endOffset="471"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.navigation:navigation-fragment-ktx than 2.7.7 is available: 2.9.6">
+        <fix-replace
+            description="Change to 2.9.6"
+            family="Update versions"
+            oldString="2.7.7"
+            replacement="2.9.6"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="30"
+            column="14"
+            startOffset="464"
+            endLine="30"
+            endColumn="21"
+            endOffset="471"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.navigation:navigation-ui-ktx than 2.7.7 is available: 2.9.6">
+        <fix-replace
+            description="Change to 2.9.6"
+            family="Update versions"
+            oldString="2.7.7"
+            replacement="2.9.6"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="30"
+            column="14"
+            startOffset="464"
+            endLine="30"
+            endColumn="21"
+            endOffset="471"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose:compose-bom than 2024.02.00 is available: 2025.12.00">
+        <fix-replace
+            description="Change to 2025.12.00"
+            family="Update versions"
+            oldString="2024.02.00"
+            replacement="2025.12.00"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="42"
+            column="15"
+            startOffset="591"
+            endLine="42"
+            endColumn="27"
+            endOffset="603"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity-compose than 1.8.2 is available: 1.12.1">
+        <fix-replace
+            description="Change to 1.12.1"
+            family="Update versions"
+            oldString="1.8.2"
+            replacement="1.12.1"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="43"
+            column="20"
+            startOffset="623"
+            endLine="43"
+            endColumn="27"
+            endOffset="630"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.navigation:navigation-compose than 2.7.6 is available: 2.9.6">
+        <fix-replace
+            description="Change to 2.9.6"
+            family="Update versions"
+            oldString="2.7.6"
+            replacement="2.9.6"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="44"
+            column="22"
+            startOffset="652"
+            endLine="44"
+            endColumn="29"
+            endOffset="659"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.datastore:datastore-preferences than 1.0.0 is available: 1.2.0">
+        <fix-replace
+            description="Change to 1.2.0"
+            family="Update versions"
+            oldString="1.0.0"
+            replacement="1.2.0"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="47"
+            column="13"
+            startOffset="685"
+            endLine="47"
+            endColumn="20"
+            endOffset="692"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.9.4 is available: 2.10.0">
+        <fix-replace
+            description="Change to 2.10.0"
+            family="Update versions"
+            oldString="2.9.4"
+            replacement="2.10.0"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="48"
+            column="27"
+            startOffset="719"
+            endLine="48"
+            endColumn="34"
+            endOffset="726"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="Upgrade `androidx.compose.foundation` for keyboard and mouse support">
+        <fix-replace
+            description="Change to 1.10.0"
+            family="Update versions"
+            oldString="1.9.4"
+            replacement="1.10.0"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="49"
+            column="14"
+            startOffset="740"
+            endLine="49"
+            endColumn="21"
+            endOffset="747"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose.ui:ui-text than 1.9.4 is available: 1.10.0">
+        <fix-replace
+            description="Change to 1.10.0"
+            family="Update versions"
+            oldString="1.9.4"
+            replacement="1.10.0"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="50"
+            column="10"
+            startOffset="757"
+            endLine="50"
+            endColumn="17"
+            endOffset="764"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose.animation:animation than 1.9.4 is available: 1.10.0">
+        <fix-replace
+            description="Change to 1.10.0"
+            family="Update versions"
+            oldString="1.9.4"
+            replacement="1.10.0"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="51"
+            column="13"
+            startOffset="777"
+            endLine="51"
+            endColumn="20"
+            endOffset="784"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose.foundation:foundation-layout than 1.9.4 is available: 1.10.0">
+        <fix-replace
+            description="Change to 1.10.0"
+            family="Update versions"
+            oldString="1.9.4"
+            replacement="1.10.0"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="52"
+            column="20"
+            startOffset="804"
+            endLine="52"
+            endColumn="27"
+            endOffset="811"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose.ui:ui-graphics than 1.9.4 is available: 1.10.0">
+        <fix-replace
+            description="Change to 1.10.0"
+            family="Update versions"
+            oldString="1.9.4"
+            replacement="1.10.0"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="53"
+            column="14"
+            startOffset="825"
+            endLine="53"
+            endColumn="21"
+            endOffset="832"/>
+    </incident>
+
+    <incident
+        id="NewerVersionAvailable"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin.android than 2.0.21 is available: 2.2.21">
+        <fix-replace
+            description="Change to 2.2.21"
+            family="Update versions"
+            oldString="2.0.21"
+            replacement="2.2.21"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="3"
+            column="10"
+            startOffset="35"
+            endLine="3"
+            endColumn="18"
+            endOffset="43"/>
+    </incident>
+
+    <incident
+        id="NewerVersionAvailable"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin.kapt than 2.0.21 is available: 2.2.21">
+        <fix-replace
+            description="Change to 2.2.21"
+            family="Update versions"
+            oldString="2.0.21"
+            replacement="2.2.21"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="3"
+            column="10"
+            startOffset="35"
+            endLine="3"
+            endColumn="18"
+            endOffset="43"/>
+    </incident>
+
+    <incident
+        id="NewerVersionAvailable"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin.plugin.compose than 2.0.21 is available: 2.2.21">
+        <fix-replace
+            description="Change to 2.2.21"
+            family="Update versions"
+            oldString="2.0.21"
+            replacement="2.2.21"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="3"
+            column="10"
+            startOffset="35"
+            endLine="3"
+            endColumn="18"
+            endOffset="43"/>
+    </incident>
+
+    <incident
+        id="NewerVersionAvailable"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlin.plugin.parcelize than 2.0.21 is available: 2.2.21">
+        <fix-replace
+            description="Change to 2.2.21"
+            family="Update versions"
+            oldString="2.0.21"
+            replacement="2.2.21"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="3"
+            column="10"
+            startOffset="35"
+            endLine="3"
+            endColumn="18"
+            endOffset="43"/>
+    </incident>
+
+    <incident
+        id="NewerVersionAvailable"
+        severity="warning"
+        message="A newer version of com.squareup.okhttp3:logging-interceptor than 4.12.0 is available: 5.3.2">
+        <fix-replace
+            description="Change to 5.3.2"
+            family="Update versions"
+            oldString="4.12.0"
+            replacement="5.3.2"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="20"
+            column="10"
+            startOffset="332"
+            endLine="20"
+            endColumn="18"
+            endOffset="340"/>
+    </incident>
+
+    <incident
+        id="NewerVersionAvailable"
+        severity="warning"
+        message="A newer version of com.squareup.okhttp3:okhttp than 4.12.0 is available: 5.3.2">
+        <fix-replace
+            description="Change to 5.3.2"
+            family="Update versions"
+            oldString="4.12.0"
+            replacement="5.3.2"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="20"
+            column="10"
+            startOffset="332"
+            endLine="20"
+            endColumn="18"
+            endOffset="340"/>
+    </incident>
+
+    <incident
+        id="NewerVersionAvailable"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-android than 1.7.3 is available: 1.10.2">
+        <fix-replace
+            description="Change to 1.10.2"
+            family="Update versions"
+            oldString="1.7.3"
+            replacement="1.10.2"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="24"
+            column="14"
+            startOffset="384"
+            endLine="24"
+            endColumn="21"
+            endOffset="391"/>
+    </incident>
+
+    <incident
+        id="NewerVersionAvailable"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-core than 1.7.3 is available: 1.10.2">
+        <fix-replace
+            description="Change to 1.10.2"
+            family="Update versions"
+            oldString="1.7.3"
+            replacement="1.10.2"
+            priority="0"/>
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="24"
+            column="14"
+            startOffset="384"
+            endLine="24"
+            endColumn="21"
+            endOffset="391"/>
+    </incident>
+
+    <incident
+        id="SimilarGradleDependency"
+        severity="informational"
+        message="There are multiple dependencies androidx.hilt:hilt-navigation-compose but with different version">
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="71"
+            column="28"
+            startOffset="2044"
+            endLine="71"
+            endColumn="120"
+            endOffset="2136"/>
+    </incident>
+
+    <incident
+        id="SimilarGradleDependency"
+        severity="informational"
+        message="There are multiple dependencies androidx.navigation:navigation-compose but with different version">
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="92"
+            column="23"
+            startOffset="3508"
+            endLine="92"
+            endColumn="112"
+            endOffset="3597"/>
+    </incident>
+
+    <incident
+        id="SimilarGradleDependency"
+        severity="informational"
+        message="There are multiple dependencies androidx.navigation:navigation-compose but with different version">
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="113"
+            column="23"
+            startOffset="4764"
+            endLine="113"
+            endColumn="120"
+            endOffset="4861"/>
+    </incident>
+
+    <incident
+        id="SimilarGradleDependency"
+        severity="informational"
+        message="There are multiple dependencies androidx.hilt:hilt-navigation-compose but with different version">
+        <location
+            file="$HOME/Github_Repos/RelaxInn/gradle/libs.versions.toml"
+            line="114"
+            column="28"
+            startOffset="4889"
+            endLine="114"
+            endColumn="120"
+            endOffset="4981"/>
+    </incident>
+
+    <incident
+        id="UnusedMaterial3ScaffoldPaddingParameter"
+        severity="error"
+        message="Content padding parameter _ is not used">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/project/relaxinn/MainActivity.kt"
+            line="28"
+            column="28"
+            startOffset="1204"
+            endLine="28"
+            endColumn="29"
+            endOffset="1205"/>
+    </incident>
+
+    <incident
+        id="VectorPath"
+        severity="warning"
+        message="Very long vector path (6244 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/logo__1_.xml"
+            line="10"
+            column="27"
+            startOffset="316"
+            endLine="10"
+            endColumn="6271"
+            endOffset="6560"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive icon is missing a monochrome tag">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="5"
+            endColumn="17"
+            endOffset="265"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive roundIcon is missing a monochrome tag">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher_round.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="5"
+            endColumn="17"
+            endOffset="265"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/background.png` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/background.png"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/ic_building_one.png` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/ic_building_one.png"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/plan_banner.png` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/plan_banner.png"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Home&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/bottom_navigation_menu.xml"
+            line="6"
+            column="9"
+            startOffset="222"
+            endLine="6"
+            endColumn="29"
+            endOffset="242"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Favorite&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/bottom_navigation_menu.xml"
+            line="10"
+            column="9"
+            startOffset="363"
+            endLine="10"
+            endColumn="33"
+            endOffset="387"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Worklist&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/bottom_navigation_menu.xml"
+            line="14"
+            column="9"
+            startOffset="510"
+            endLine="14"
+            endColumn="33"
+            endOffset="534"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Watheeq&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/bottom_navigation_menu.xml"
+            line="18"
+            column="9"
+            startOffset="648"
+            endLine="18"
+            endColumn="32"
+            endOffset="671"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;More&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/menu/bottom_navigation_menu.xml"
+            line="22"
+            column="9"
+            startOffset="782"
+            endLine="22"
+            endColumn="29"
+            endOffset="802"/>
+    </incident>
+
+</incidents>

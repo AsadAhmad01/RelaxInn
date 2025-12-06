@@ -35,11 +35,11 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.OutlinedTextFieldDefaults
-import androidx.compose.material3.Scaffold
+
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableIntStateOf
+
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -57,7 +57,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.project.relaxinn.R
 import com.project.relaxinn.presentation.theme.AppTheme
-import com.project.relaxinn.presentation.utills.BottomNavigationBar
+
 
 data class Hotel(
     val name: String,
@@ -69,8 +69,7 @@ data class Hotel(
 )
 
 @Composable
-fun HomeScreen() {
-    var selectedTab by remember { mutableIntStateOf(0) }
+fun HomeScreen(modifier: Modifier = Modifier) {
     var searchQuery by remember { mutableStateOf("") }
     val scrollState = rememberScrollState()
 
@@ -84,80 +83,67 @@ fun HomeScreen() {
         Hotel("Sapphires Hotel", "New York", 4.0f, "$75", R.drawable.ic_building_one)
     )
 
-    Scaffold(
-        modifier = Modifier.fillMaxSize(),
-        containerColor = AppTheme.colors.background,
-        bottomBar = {
-            BottomNavigationBar(
-                selectedTab = selectedTab,
-                onTabSelected = { selectedTab = it }
-            )
-        }
-    ) { paddingValues ->
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(paddingValues)
-                .padding(bottom = 24.dp)
-                .verticalScroll(scrollState)
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .verticalScroll(scrollState)
+    ) {
+        // Header Section
+        HomeHeader()
+
+        Spacer(modifier = Modifier.height(24.dp))
+
+        // Search Bar
+        SearchBar(
+            query = searchQuery,
+            onQueryChange = { searchQuery = it },
+            modifier = Modifier.padding(horizontal = 20.dp)
+        )
+
+        Spacer(modifier = Modifier.height(32.dp))
+
+        // Top Rated Section
+        SectionHeader(
+            title = "Top rated",
+            subtitle = "Sapphines Hotel",
+            onSeeAllClick = {},
+            modifier = Modifier.padding(horizontal = 20.dp)
+        )
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        // Top Rated Hotels Carousel
+        LazyRow(
+            contentPadding = PaddingValues(horizontal = 20.dp),
+            horizontalArrangement = Arrangement.spacedBy(16.dp)
         ) {
-            // Header Section
-            HomeHeader()
-
-            Spacer(modifier = Modifier.height(24.dp))
-
-            // Search Bar
-            SearchBar(
-                query = searchQuery,
-                onQueryChange = { searchQuery = it },
-                modifier = Modifier.padding(horizontal = 20.dp)
-            )
-
-            Spacer(modifier = Modifier.height(32.dp))
-
-            // Top Rated Section
-            SectionHeader(
-                title = "Top rated",
-                subtitle = "Sapphines Hotel",
-                onSeeAllClick = {},
-                modifier = Modifier.padding(horizontal = 20.dp)
-            )
-
-            Spacer(modifier = Modifier.height(16.dp))
-
-            // Top Rated Hotels Carousel
-            LazyRow(
-                contentPadding = PaddingValues(horizontal = 20.dp),
-                horizontalArrangement = Arrangement.spacedBy(16.dp)
-            ) {
-                items(topRatedHotels) { hotel ->
-                    TopRatedHotelCard(hotel = hotel)
-                }
+            items(topRatedHotels) { hotel ->
+                TopRatedHotelCard(hotel = hotel)
             }
-
-            Spacer(modifier = Modifier.height(32.dp))
-
-            // Discover Section
-            SectionHeader(
-                title = "Discover",
-                subtitle = "",
-                onSeeAllClick = {},
-                modifier = Modifier.padding(horizontal = 20.dp)
-            )
-
-            Spacer(modifier = Modifier.height(16.dp))
-
-            // Discover Hotels List
-            discoverHotels.forEach { hotel ->
-                DiscoverHotelCard(
-                    hotel = hotel,
-                    modifier = Modifier.padding(horizontal = 20.dp, vertical = 8.dp)
-                )
-            }
-
-            // Extra bottom padding to ensure content is visible above bottom bar
-            Spacer(modifier = Modifier.height(16.dp))
         }
+
+        Spacer(modifier = Modifier.height(32.dp))
+
+        // Discover Section
+        SectionHeader(
+            title = "Discover",
+            subtitle = "",
+            onSeeAllClick = {},
+            modifier = Modifier.padding(horizontal = 20.dp)
+        )
+
+        Spacer(modifier = Modifier.height(16.dp))
+
+        // Discover Hotels List
+        discoverHotels.forEach { hotel ->
+            DiscoverHotelCard(
+                hotel = hotel,
+                modifier = Modifier.padding(horizontal = 20.dp, vertical = 8.dp)
+            )
+        }
+
+        // Extra bottom padding to ensure content is visible above bottom bar
+        Spacer(modifier = Modifier.height(16.dp))
     }
 }
 
